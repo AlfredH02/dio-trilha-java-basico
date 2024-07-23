@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Bem vindo, informe abaixo as informações para criar uma conta em nosso banco.");
 
